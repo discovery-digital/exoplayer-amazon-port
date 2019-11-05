@@ -20,7 +20,7 @@ android {
     defaultConfig {
         minSdkVersion 9
         targetSdkVersion 23
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -47,5 +47,5 @@ dependencies {
     androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.2'
     androidTestCompile 'org.mockito:mockito-core:1.9.5'
     androidTestCompile project(':library')
-    androidTestCompile 'com.android.support.test:runner:0.4'
+    androidTestCompile 'com.androidx.test:runner:0.4'
 }
