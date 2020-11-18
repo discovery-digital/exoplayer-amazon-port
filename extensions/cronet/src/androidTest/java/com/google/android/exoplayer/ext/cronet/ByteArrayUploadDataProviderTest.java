@@ -24,8 +24,8 @@ import static org.mockito.MockitoAnnotations.initMocks;
 
 import android.annotation.TargetApi;
 import android.os.Build.VERSION_CODES;
-import androidx.test.InstrumentationRegistry;
-import androidx.test.runner.AndroidJUnit4;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.runner.AndroidJUnit4;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
