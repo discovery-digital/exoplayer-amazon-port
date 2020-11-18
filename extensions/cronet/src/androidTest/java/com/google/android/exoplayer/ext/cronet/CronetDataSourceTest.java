@@ -37,8 +37,8 @@ import static org.mockito.MockitoAnnotations.initMocks;
 
 import android.net.Uri;
 import android.os.ConditionVariable;
-import androidx.test.InstrumentationRegistry;
-import androidx.test.runner.AndroidJUnit4;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.runner.AndroidJUnit4;
 import com.google.android.exoplayer.C;
 import com.google.android.exoplayer.upstream.DataSpec;
 import com.google.android.exoplayer.upstream.HttpDataSource;
